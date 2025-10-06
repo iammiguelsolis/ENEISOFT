@@ -6,12 +6,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import styles from './CarruselInvitados.module.css';
+import styles from "./CarruselInvitados.module.css";
 
-import img1 from '../assets/invitado1.jpg';
-import img2 from '../assets/invitado2.jpg';
-import img3 from '../assets/invitado3.jpg';
-import img4 from '../assets/invitado1.jpg';
+import img1 from '../../assets/invitado1.jpg';
+import img2 from '../../assets/invitado2.jpg';
+import img3 from '../../assets/invitado3.jpg';
+import img4 from '../../assets/invitado1.jpg';
 
 export function CarruselInvitados() {
   const invitados = [img1, img2, img3, img4, img1, img2, img3, img2, img3, img4, img1, img2, img3];
@@ -20,10 +20,10 @@ export function CarruselInvitados() {
     <section className='bg-white'>
       <div className={styles.container}>
         <h1
-          className="text-7xl font-impact font-bold ms-24 secondary"
+          className="text-7xl font-impact font-bold ms-20 secondary"
           style={{ textShadow: "3px 5px 1px rgba(0, 0, 0, 0.6)" }}
         >
-          INVITADOS
+          SPEAKERS
         </h1>
 
         <Swiper

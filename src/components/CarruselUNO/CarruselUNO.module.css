@@ -3,6 +3,7 @@
 .slider {
   height: var(--height);
   overflow: hidden;
+
   mask-image: linear-gradient(
     to right,
     transparent,

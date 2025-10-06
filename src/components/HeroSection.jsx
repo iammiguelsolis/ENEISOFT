@@ -1,6 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { motion } from "framer-motion";
-import { Contador } from "./Contador";
+import { Contador } from "./common/Contador";
 
 export function HeroSection() {
   const targetDate = new Date("2025-10-10T16:00:00"); // Fecha objetivo

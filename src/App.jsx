@@ -1,10 +1,9 @@
 import React from "react";
 import "./styles/App.css";
-import { AnimatedSection } from "./components/AnimatedSection";
-import { HeroSection } from "./components/hero-section";
+import { HeroSection } from "./components/HeroSection";
 import { WhatIsEneisoft } from "./components/WhatIsEneisoft";
-import { CarruselUNO } from "./components/CarruselUNO"
-import { CarruselInvitados } from "./components/CarruselInvitados";
+import { CarruselUNO } from "./components/CarruselUNO/CarruselUNO";
+import { CarruselInvitados } from "./components/CarruselInvitados/CarruselInvitados";
 
 function App() {
 

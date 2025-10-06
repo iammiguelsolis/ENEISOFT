@@ -19,7 +19,12 @@ export function CarruselInvitados() {
   return (
     <section className='bg-white'>
       <div className={styles.container}>
-        <h1 className='text-7xl font-bold'>INVITADOS</h1>
+        <h1
+          className="text-7xl font-impact font-bold ms-24 secondary"
+          style={{ textShadow: "3px 5px 1px rgba(0, 0, 0, 0.6)" }}
+        >
+          INVITADOS
+        </h1>
 
         <Swiper
           effect="coverflow"

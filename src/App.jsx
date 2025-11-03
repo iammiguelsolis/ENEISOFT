@@ -1,28 +1,11 @@
-import React from "react";
-import "./styles/App.css";
-import { HeroSection } from "./components/HeroSection";
-import { WhatIsEneisoft } from "./components/WhatIsEneisoft";
-import { CarruselUNO } from "./components/CarruselUNO/CarruselUNO";
-import { CarruselInvitados } from "./components/CarruselInvitados/CarruselInvitados";
+import LandingPage from "./modules/landingpage/page/LandingPage"
 
 function App() {
-
-  const eventos = [
-    "NetWorking",
-    "Workshops",
-    "Keynotes",
-    "Programación Competitiva",
-    "Hackathon",
-  ];
-
   return (
     <div>
-      <HeroSection />
-      <WhatIsEneisoft />
-      <CarruselUNO items={eventos} width="360px" height="200px" />
-      <CarruselInvitados />
+      <LandingPage/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

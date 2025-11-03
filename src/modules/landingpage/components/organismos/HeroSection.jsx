@@ -1,9 +1,9 @@
 import { ArrowDown } from "lucide-react";
 import { motion } from "framer-motion";
-import { Contador } from "./common/Contador";
+import { Contador } from "../atomos/Contador";
 
 export function HeroSection() {
-  const targetDate = new Date("2025-10-10T16:00:00"); // Fecha objetivo
+  const targetDate = new Date("2025-11-10T16:00:00");
 
   return (
     <section className="relative flex flex-col h-screen overflow-x-hidden text-center px-4 primary bg-eneisoft">
